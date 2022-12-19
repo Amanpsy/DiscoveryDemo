@@ -1,0 +1,123 @@
+.header {
+  background-image: url("/images/Bakers-Bay-Golf-and-Ocean-Club_35d31212c7a2d4dccdff99afa3f88af5.png");
+  background-color: #cccccc;
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px;
+  z-index: -1; 
+}
+
+body {
+  padding: 0px;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+.upperHeading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.navlinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+}
+.discovery {
+  display: flex;
+  height: 50px;
+}
+.link {
+  color: white;
+}
+.burger {
+  color: white;
+  height: fit-content;
+}
+
+.span {
+  color: white;
+  font-size: 55px;
+  font-weight: 200;
+}
+
+.getintouch{
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 20%;
+}
+
+.img {
+  height: 300px;
+  margin: 0;
+
+  
+}
+.footer{
+  background-color: #161f1e;
+  height: 60%;
+  
+  padding: 80px;
+}
+
+.content-para {
+  display: flex;
+  
+  flex-direction: row;
+  justify-content: space-around;
+  flex: 1;
+  background-color: black;
+  color: white;
+  padding: 50px;
+  font-size: 20px;
+  margin: 0;
+}
+.imagesdiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0;
+  flex-wrap: wrap;
+}
+/* .para {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex: 1;
+  background-color: black;
+  color: white;
+  
+} */
+
+
+.img-para{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.footerHeading{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 70px;
+}
+.footerLinks{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 60%;
+}
+.copyright{
+
+  color:#FFFFFFBF;
+}
