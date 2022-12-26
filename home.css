@@ -1,0 +1,239 @@
+.header {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+body {
+  padding: 0px;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+.upperHeading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+  margin: 0;
+  padding: 50px;
+}
+
+.navlinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  color: aliceblue;
+}
+.discovery {
+  display: flex;
+  height: 50px;
+}
+#myvideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  z-index: -1;
+}
+.span {
+  color: white;
+  font-size: 30px;
+  font-weight: 200;
+  margin-left: 100px;
+  margin-top: 150px;
+}
+.span1 {
+  color: white;
+  font-size: 74px;
+  font-weight: 200;
+  width: 22%;
+  margin-left: 260px;
+  margin-top: 160px;
+}
+.nextbox {
+ background-image: url(/images/bg.jpg); 
+  background-size: 1000px 500px;
+ padding: 120px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: -1;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.smallhead {
+  font-size: 38px;
+  font-weight: unset;
+  width: 60%;
+}
+.content {
+  
+  
+}
+.clip {
+  height: 285px;
+  width: 450px;
+}
+.rclip {
+ width: 60%;
+ height: 100%;
+}
+.lpara {
+  font-size: 17px;
+}
+.leftimg {
+  margin-top: 100px;
+  width: 100%;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.explore {
+  padding: 0px 180px;
+  height: 40%;
+  width: 100%;
+}
+.expo {
+  width: 12%;
+  font-size: 44.3px;
+}
+.lan {
+  width: 20%;
+  font-size: 40px;
+}
+.landpara {
+  font-size: 18px;
+}
+.land {
+  padding: 0px 180px;
+}
+.location {
+  font-size: 18px;
+  padding-right: 290px;
+}
+.anchors {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: flex-start;
+  padding-top: 28px;
+}
+.greybox {
+  height: 60%;
+  width: 50%;
+  background-color: #161f1e;
+  z-index: 2;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  
+}
+.globe {
+ 
+}
+.leftImg {
+  z-index: -1;
+  width: 100%;
+}
+.mountain{
+  z-index: 5;
+  height: 60%;
+  width: 40%;
+}
+.carts{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+.firstcart{
+  flex: 1;
+}
+.secondcart{
+  flex: 1;
+   width: 33.33%;
+}
+.thirdcart{
+  flex: 1;
+}
+.footerHeading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 70px;
+}
+.footerLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 60%;
+}
+.footer {
+  background-color: #161f1e;
+  height: 60%;
+
+  padding: 80px;
+}
+.getintouch {
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 20%;
+ 
+}
+.copyright{
+
+  color:#FFFFFFBF;
+ 
+}.navlinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 60%;
+  align-items: flex-start;
+
+}
+.discovery {
+  display: flex;
+  height: 50px;
+}
+.mainimgbox{
+  background-image: url("https://discoverylandco.com/static/globe-usa.jpg");
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.rightImg{
+ position: relative;
+  z-index: 30;
+ 
+  margin-top: -35px;
+  
+}
+.mountain{
+ flex: 1;
+  margin-top: -35px;
+  height: 100%;
+  width: 80%;
+}
