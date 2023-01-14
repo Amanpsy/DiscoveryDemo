@@ -57,10 +57,13 @@ body {
   margin-top: 160px;
 }
 .nextbox {
- background-image: url(/images/bg.jpg); 
-  background-size: 1000px 500px;
- padding: 120px;
-  width: 100%;
+  border: 2px solid red;
+  background-image: url(/images/bg.jpg);
+  background-size: 60% 100%;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  height: 120vh;
+  width: 100vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -78,16 +81,14 @@ body {
   width: 60%;
 }
 .content {
-  
-  
 }
 .clip {
   height: 285px;
   width: 450px;
 }
 .rclip {
- width: 60%;
- height: 100%;
+  width: 60%;
+  height: 100%;
 }
 .lpara {
   font-size: 17px;
@@ -137,40 +138,37 @@ body {
   width: 50%;
   background-color: #161f1e;
   z-index: 2;
-  
+
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  
 }
 .globe {
- 
 }
 .leftImg {
   z-index: -1;
   width: 100%;
 }
-.mountain{
+.mountain {
   z-index: 5;
   height: 60%;
   width: 40%;
 }
-.carts{
+.carts {
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  
 }
-.firstcart{
+.firstcart {
   flex: 1;
 }
-.secondcart{
+.secondcart {
   flex: 1;
-   width: 33.33%;
+  width: 33.33%;
 }
-.thirdcart{
+.thirdcart {
   flex: 1;
 }
 .footerHeading {
@@ -198,25 +196,22 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   height: 20%;
- 
 }
-.copyright{
-
-  color:#FFFFFFBF;
- 
-}.navlinks {
+.copyright {
+  color: #ffffffbf;
+}
+.navlinks {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   width: 60%;
   align-items: flex-start;
-
 }
 .discovery {
   display: flex;
   height: 50px;
 }
-.mainimgbox{
+.mainimgbox {
   background-image: url("https://discoverylandco.com/static/globe-usa.jpg");
   height: 100%;
   display: flex;
@@ -224,16 +219,21 @@ body {
   justify-content: flex-end;
   align-items: center;
 }
-.rightImg{
- position: relative;
+.rightImg {
+  position: relative;
   z-index: 30;
- 
+
   margin-top: -35px;
-  
 }
-.mountain{
- flex: 1;
+.mountain {
+  flex: 1;
   margin-top: -35px;
   height: 100%;
   width: 80%;
+}
+.arrow{
+  position: relative;
+  z-index: 12;
+  width: 20px;
+  height: 30px;
 }

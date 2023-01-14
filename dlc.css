@@ -1,6 +1,6 @@
 .header {
   background-image: url("/images/outdoor-adventures-in-the-caribbean_2cbd80a0345be3b5a0b7649a1a2d057f.jpg");
-   filter: brightness(70%); 
+   filter: brightness(70%);  
   background-color: #cccccc;
   height: 100%;
   background-position: center;
@@ -44,14 +44,18 @@ body {
   color: white;
   height: fit-content;
 }
-
+.uhead{
+  color: #Ffffff;
+}
 .span {
   color:	#Ffffff;
+  opacity: 2.5 !important;
   font-size: 51px;
   font-weight: 120px;
   width: 30%;
   margin-left: 300px;
   margin-top: 80px;
+
 }
 .text {
   padding: 120px 90px;
@@ -167,7 +171,7 @@ body {
 .right {
   flex: 1;
   padding: 50px;
-  padding-top: 220px;
+  padding-top: 250px;
 }
 .leftimg {
   height: 50%;
@@ -180,7 +184,7 @@ body {
   margin-bottom: 190px;
 }
 .long {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .clip {
   width: 100%;
